@@ -23,7 +23,7 @@ A containerized book catalog with a Spring Boot API and a React front end, built
 Final version of the first project of a cloud services course at Universidade
 Presbiteriana Mackenzie (2024). The goal was to split an application into a back-end
 and a front-end container and run each one on its own cloud machine. An earlier
-iteration lives in [Projeto01-Nuvemv1](https://github.com/EnzoFerroni/Projeto01-Nuvemv1).
+iteration lives in [cloud-book-catalog-v1](https://github.com/EnzoFerroni/cloud-book-catalog-v1).
 
 ## Architecture
 
@@ -40,8 +40,8 @@ hosts.
 Requirements: Docker with Compose.
 
 ```bash
-git clone https://github.com/EnzoFerroni/Projeto01-Biblioteca-AWS.git
-cd Projeto01-Biblioteca-AWS
+git clone https://github.com/EnzoFerroni/cloud-book-catalog-aws.git
+cd cloud-book-catalog-aws
 
 (cd backend && docker compose up --build -d)
 (cd frontend && docker compose up --build -d)
